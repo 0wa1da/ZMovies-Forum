@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZMovies-Forum/static/css/main.127684a8.chunk.css",
+    "main.js": "/ZMovies-Forum/static/js/main.6bb76a19.chunk.js",
+    "main.js.map": "/ZMovies-Forum/static/js/main.6bb76a19.chunk.js.map",
+    "runtime-main.js": "/ZMovies-Forum/static/js/runtime-main.6eb8a3aa.js",
+    "runtime-main.js.map": "/ZMovies-Forum/static/js/runtime-main.6eb8a3aa.js.map",
+    "static/js/2.1a7f7d90.chunk.js": "/ZMovies-Forum/static/js/2.1a7f7d90.chunk.js",
+    "static/js/2.1a7f7d90.chunk.js.map": "/ZMovies-Forum/static/js/2.1a7f7d90.chunk.js.map",
+    "index.html": "/ZMovies-Forum/index.html",
+    "precache-manifest.c004f414f2ed14d5b816267ad0065b51.js": "/ZMovies-Forum/precache-manifest.c004f414f2ed14d5b816267ad0065b51.js",
+    "service-worker.js": "/ZMovies-Forum/service-worker.js",
+    "static/css/main.127684a8.chunk.css.map": "/ZMovies-Forum/static/css/main.127684a8.chunk.css.map",
+    "static/js/2.1a7f7d90.chunk.js.LICENSE.txt": "/ZMovies-Forum/static/js/2.1a7f7d90.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6eb8a3aa.js",
+    "static/js/2.1a7f7d90.chunk.js",
+    "static/css/main.127684a8.chunk.css",
+    "static/js/main.6bb76a19.chunk.js"
+  ]
+}
