@@ -1,0 +1,103 @@
+.App{
+  margin-top: 85px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 14px;
+}
+
+li a:hover {
+  color:#eae6da;
+  text-decoration: none;
+}
+
+li.active a, ul li.active{
+  padding: 6px 10px 0px 10px;
+  margin-right: 30px;
+  font-size: 31px;
+  font-family: 'Sansita Swashed', cursive;
+  color:#ffffff;
+}
+li.active a:hover{
+  color:#eae6da;
+}
+
+li img:hover{
+  opacity: 0.93; 
+}
+.dropList-item{
+  display: block;
+  height: 42px;
+  width: 100%;
+  padding: 5px;
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: inherit;
+  text-decoration: inherit;
+  text-align: center;
+  cursor: pointer;
+  font-size: 23px;
+}
+.dropList-item:hover{
+  background-color: #4682b4;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+div.dropList-item:hover{
+  background-color: #dc3636;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+#dark:hover{
+  background-color: #000000;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.menuIcon{
+  cursor:pointer;
+  font-size:50px;
+  color:white;
+}
+.menuIcon:hover{
+  color: antiquewhite;
+}
+
+div.emailDisplay{
+  scroll-behavior: smooth;
+} 
+div.emailDisplay::-webkit-scrollbar {
+  height: 0.4rem;
+}
+
+div.emailDisplay::-webkit-scrollbar-track {
+  background: #e0f0f5fa;
+}
+
+div.emailDisplay::-webkit-scrollbar-thumb {
+  background: #4682b4;
+}
+#sideMenu{
+  overflow: hidden;
+  transition: width 0.5s ease-in;
+}

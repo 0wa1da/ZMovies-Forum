@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff8dc;
+}
+.sign{
+  outline: lightblue solid 4px;
+  transform:scale(1.01);
+  background-color: white;
+}
+div{
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.messages-container::-webkit-scrollbar {
+  width: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.messages-container::-webkit-scrollbar-track {
+  background: #fff8dc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.messages-container::-webkit-scrollbar-thumb {
+  background: #4682b4;
+}
+input.white-placeholder::placeholder{
+color: white;
+}
+.google-btn:hover{
+  background-color: rgba(250, 249, 248,0.8);
+}
+textarea:focus, input:focus, button:focus{
+  outline: none;
+} 
+.pageTitle{
+  text-align:center;
+  font-size: 9vw;
+}
+.collectionlist-container{
+  box-sizing: border-box;
+  padding : 20px 20px;  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  width: 90vw;
+  margin: 0px 5vw 10px 5vw;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hr{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-top:solid 2px #6395ec;
+  width:50%;
 }
